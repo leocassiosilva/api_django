@@ -17,10 +17,21 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
+
+from atracoes.api.viewsets import AtracaoViewSet
+from avaliacoes.api.viewsets import AvaliacaoViewSet
+from comentarios.api.viewsets import ComentarioViewSet
 from core.api.viewsets import PontoTuristicoViewSet
+from endereco.api.viewsets import EnderecoViewSet
 
 router = routers.DefaultRouter()
 router.register(r'pontoturistico', PontoTuristicoViewSet)
+router.register(r'atracao', AtracaoViewSet)
+router.register(r'avaliacao', AvaliacaoViewSet)
+router.register(r'endereco', EnderecoViewSet)
+router.register(r'comentario', ComentarioViewSet)
+
+
 urlpatterns = [
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
