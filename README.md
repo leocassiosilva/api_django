@@ -1,7 +1,7 @@
 # Api utilizando Django
 Curso de Api Django Rest Framework Udemy
 
-#Descrição
+# Descrição
 ## ESTE É UM CURSO PARA INICIANTES E INTERMEDIÁRIOS
 
 Desenvolva um projeto de Web API de pontos turísticos com Python + Django + Django Rest Framework e deploy no Heroku, utilizando as melhores práticas de desenvolvimento de software, desenvolvimento de web API's e de deploy seguro e confiável utilizando o PaaS Heroku.
