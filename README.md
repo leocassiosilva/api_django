@@ -22,7 +22,7 @@ RESTful Web API para exposição de pontos turísticos de uma região
 
 ### 📋 Pré-requisitos
 
-- Linux 
+- Linux/Windows
 - PostgreSQL mais recente
 - Python 3.10
 - pip (https://pip.pypa.io/en/stable/)
